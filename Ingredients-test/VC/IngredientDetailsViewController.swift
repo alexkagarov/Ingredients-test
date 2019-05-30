@@ -26,12 +26,11 @@ class IngredientDetailsViewController: UIViewController {
     func dataFilling(item: Ingredient?) {
         if let name = item?.name, let protein = item?.protein, let fat = item?.fat, let carbs = item?.carbs, let calories = item?.calories {
             selectedIngredientName.text = name
-            proteinLabel.text = "Білки: \(protein) г."
-            fatLabel.text = "Жири: \(fat) г."
-            carbsLabel.text = "Вуглеводи: \(carbs) г."
-            caloriesLabel.text = "Поживна цінність: \(calories) ккал."
+            proteinLabel.text = String(protein)
+            fatLabel.text = String(fat)
+            carbsLabel.text = String(carbs)
+            caloriesLabel.text = String(calories)
         }
     }
-    
-
 }
+

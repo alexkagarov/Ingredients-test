@@ -18,6 +18,7 @@
 		5F69589F229F1A8400FA2440 /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F69589E229F1A8400FA2440 /* ingredients.json */; };
 		5F6958A2229F20B200FA2440 /* TableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6958A1229F20B200FA2440 /* TableDataModel.swift */; };
 		5F6958A6229FAE3200FA2440 /* TableDataModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6958A5229FAE3200FA2440 /* TableDataModelDelegate.swift */; };
+		5F6958A8229FBC5200FA2440 /* CustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6958A7229FBC5200FA2440 /* CustomizedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5F69589E229F1A8400FA2440 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
 		5F6958A1229F20B200FA2440 /* TableDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModel.swift; sourceTree = "<group>"; };
 		5F6958A5229FAE3200FA2440 /* TableDataModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModelDelegate.swift; sourceTree = "<group>"; };
+		5F6958A7229FBC5200FA2440 /* CustomizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5F695885229F113100FA2440 /* IngredientsViewController.swift */,
 				5F695895229F127700FA2440 /* IngredientDetailsViewController.swift */,
 				5F69589C229F18BC00FA2440 /* IngredientTableViewCell.swift */,
+				5F6958A7229FBC5200FA2440 /* CustomizedView.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F69589D229F18BC00FA2440 /* IngredientTableViewCell.swift in Sources */,
+				5F6958A8229FBC5200FA2440 /* CustomizedView.swift in Sources */,
 				5F695896229F127700FA2440 /* IngredientDetailsViewController.swift in Sources */,
 				5F6958A2229F20B200FA2440 /* TableDataModel.swift in Sources */,
 				5F695886229F113100FA2440 /* IngredientsViewController.swift in Sources */,

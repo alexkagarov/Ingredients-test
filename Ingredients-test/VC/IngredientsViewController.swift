@@ -15,6 +15,7 @@ class IngredientsViewController: UIViewController {
             tableView?.reloadData()
         }
     }
+    @IBOutlet weak var backBtn: UINavigationItem!
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -24,6 +25,7 @@ class IngredientsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         dataSource.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
