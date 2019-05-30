@@ -25,7 +25,7 @@ class TableDataModel {
             }
             catch {
                 print("Parse error: \(error)")
-                    self.delegate?.didFailUpdate(error: error)
+                self.delegate?.didFailUpdate(error: error)
             }
         }
         catch let jsonError {

@@ -20,12 +20,11 @@ class IngredientDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataFilling(item: selectedIngredient!)
-
+        dataFilling(item: selectedIngredient)
     }
     
-    func dataFilling(item: Ingredient) {
-        if let name = item.name, let protein = item.protein, let fat = item.fat, let carbs = item.carbs, let calories = item.calories {
+    func dataFilling(item: Ingredient?) {
+        if let name = item?.name, let protein = item?.protein, let fat = item?.fat, let carbs = item?.carbs, let calories = item?.calories {
             selectedIngredientName.text = name
             proteinLabel.text = "Білки: \(protein) г."
             fatLabel.text = "Жири: \(fat) г."
