@@ -8,11 +8,6 @@
 
 import Foundation
 
-protocol TableDataModelDelegate: AnyObject {
-    func didReceiveUpdate(data: [Ingredient])
-    func didFailUpdate(error: Error)
-}
-
 class TableDataModel {
     
     weak var delegate: TableDataModelDelegate?

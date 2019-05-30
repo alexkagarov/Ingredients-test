@@ -17,6 +17,7 @@
 		5F69589D229F18BC00FA2440 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F69589C229F18BC00FA2440 /* IngredientTableViewCell.swift */; };
 		5F69589F229F1A8400FA2440 /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F69589E229F1A8400FA2440 /* ingredients.json */; };
 		5F6958A2229F20B200FA2440 /* TableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6958A1229F20B200FA2440 /* TableDataModel.swift */; };
+		5F6958A6229FAE3200FA2440 /* TableDataModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6958A5229FAE3200FA2440 /* TableDataModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5F69589C229F18BC00FA2440 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 		5F69589E229F1A8400FA2440 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
 		5F6958A1229F20B200FA2440 /* TableDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModel.swift; sourceTree = "<group>"; };
+		5F6958A5229FAE3200FA2440 /* TableDataModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModelDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				5F695897229F129E00FA2440 /* IngredientsModel.swift */,
 				5F6958A1229F20B200FA2440 /* TableDataModel.swift */,
+				5F6958A5229FAE3200FA2440 /* TableDataModelDelegate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				5F6958A2229F20B200FA2440 /* TableDataModel.swift in Sources */,
 				5F695886229F113100FA2440 /* IngredientsViewController.swift in Sources */,
 				5F695898229F129E00FA2440 /* IngredientsModel.swift in Sources */,
+				5F6958A6229FAE3200FA2440 /* TableDataModelDelegate.swift in Sources */,
 				5F695884229F113100FA2440 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
